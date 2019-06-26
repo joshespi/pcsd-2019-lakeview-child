@@ -43,7 +43,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo get_home_url(); ?>/all-events-calendar/">
+						<a href="<?php echo get_home_url(); ?>/school-information/all-events-calendar/">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/all-events-calendar.svg" alt="" />
 							<span>All Events Calendar</span>
 						</a>
