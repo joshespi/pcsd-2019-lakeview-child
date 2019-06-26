@@ -40,6 +40,7 @@
 		</ul>
 	<h3>Media Center</h3>
 		<ul>
+			<li class="int"><a href="https://lakeview.provo.edu/school-information/media-center/">Media Center</a></li>
 			<li class="ext"><a href="https://onlinelibrary.uen.org/">Library Catalog</a></li>
 		</ul>
 </div>
