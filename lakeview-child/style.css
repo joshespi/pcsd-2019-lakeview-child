@@ -130,9 +130,10 @@ header styles
 		margin-top: -40px;
 	}
 	#cludo-search-form {width:100%;position:relative;display:block;}
-	#mainHeader .sociallinks,#mainHeader #cludo-search-form .search-input, #mainHeader #cludo-search-form .search-submit {
+	#mainHeader .sociallinks{
 		top:0;
 	}
+	#mainHeader #cludo-search-form .search-input, #mainHeader #cludo-search-form .search-submit {top: 30px;}
 	#mainHeader #cludo-search-form .search-input {
 		width: calc(100% - 35px);
 		left: 0px;
@@ -168,7 +169,7 @@ header styles
 @media (max-width: 415px) {
 	#mainHeader #siteLogo {width: 60px;margin-top: 0px;}
 	#mainHeader #cludo-search-form .search-input {left:-33px;width: 100%;}
-	#mainHeader #cludo-search-form .search-input, #mainHeader #cludo-search-form .search-submit {top: 15px;}
+	#mainHeader #cludo-search-form .search-input, #mainHeader #cludo-search-form .search-submit {top: 30px;}
 	#mainHeader h1 {width: 74%}
 
 	/*

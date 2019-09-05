@@ -5,7 +5,7 @@ Add stylesheets/javascripts to enqueue
 function my_theme_enqueue_styles() {
     wp_enqueue_style('parent-theme', get_template_directory_uri() .'/style.css');
     wp_enqueue_script( 'child_scripts', get_theme_file_uri().'/assets/js/child-scripts.js', '', '1.0', true);
-    wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', '' , '1.5', false);
+    wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', '' , '1.1', false);
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 /*==========================================================================================
